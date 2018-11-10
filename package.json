@@ -1,16 +1,23 @@
 {
-  "name": "friendfinder",
+  "name": "friend-finder",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4"
-  },
-  "devDependencies": {},
+  "description": "Strangers are just friends waiting to happen. A full-stack Friend Finder application to help you locate your new BFF.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devans1913/Friend-Finder.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devans1913/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/devans1913/Friend-Finder#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
